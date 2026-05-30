@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>分类浏览-精选内容持续更新-精选电影合集-高清视频在线播放</title>
+  <meta name="description" content="按不同片单浏览精选电影、剧集、动画、悬疑、科幻与治愈内容。">
+  <meta name="keywords" content="分类浏览,精选内容持续更新,精选电影,高清播放,电影合集,热门影片,高分电影,分类浏览">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-bar">
+      <a class="logo" href="index.html" aria-label="精选电影合集">
+        <span class="logo-mark">映</span>
+        <span class="logo-text">精选电影合集</span>
+      </a>
+      <nav class="nav-links" aria-label="主导航">
+        <a class="nav-link" href="index.html">首页</a>
+        <a class="nav-link is-active" href="categories.html">分类</a>
+        <a class="nav-link" href="ranking.html">排行榜</a>
+        <a class="nav-link" href="movies.html">全部影片</a>
+      </nav>
+      <div class="nav-actions">
+        <button class="search-toggle" type="button" data-search-open>搜索</button>
+        <button class="menu-toggle" type="button" data-menu-toggle aria-label="展开导航">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+    <div class="mobile-menu" data-mobile-menu>
+        <a class="mobile-link" href="index.html">首页</a>
+        <a class="mobile-link is-active" href="categories.html">分类</a>
+        <a class="mobile-link" href="ranking.html">排行榜</a>
+        <a class="mobile-link" href="movies.html">全部影片</a>
+    </div>
+  </header>
+  <div class="search-panel" data-search-panel>
+    <div class="search-card">
+      <div class="search-head">
+        <strong>影片搜索</strong>
+        <button type="button" data-search-close>关闭</button>
+      </div>
+      <input class="search-input" type="search" placeholder="搜索影片、类型、地区、年份" data-global-search autocomplete="off">
+      <div class="search-results" data-search-results></div>
+    </div>
+  </div>
+  <main class="page-main">
+    <section class="page-hero container">
+      <span class="eyebrow">分类总览</span>
+      <h1>分类浏览</h1>
+      <p>多个独立分类页已经整理为片单入口，每个分类页均可继续进入对应影片详情。</p>
+    </section>
+    <section class="container section-block">
+      <div class="category-grid large">
+        <a class="category-tile" href="categories/prime-picks.html">
+          <img src="./3.jpg" alt="精选片单" loading="lazy">
+          <span></span>
+          <strong>精选片单</strong>
+          <em>精选片单汇集站内值得优先观看的影片内容，覆盖热门题材与高口碑故事。</em>
+        </a>
+        <a class="category-tile" href="categories/hot-cinema.html">
+          <img src="./10.jpg" alt="热映电影" loading="lazy">
+          <span></span>
+          <strong>热映电影</strong>
+          <em>热映电影聚合节奏鲜明、观看入口清晰的电影内容，适合快速浏览与连续观看。</em>
+        </a>
+        <a class="category-tile" href="categories/drama-zone.html">
+          <img src="./1.jpg" alt="剧集专区" loading="lazy">
+          <span></span>
+          <strong>剧集专区</strong>
+          <em>剧集专区整理多类型剧集与长篇故事，便于按题材和年份继续筛选。</em>
+        </a>
+        <a class="category-tile" href="categories/high-score.html">
+          <img src="./4.jpg" alt="高分推荐" loading="lazy">
+          <span></span>
+          <strong>高分推荐</strong>
+          <em>高分推荐展示剧情完整、评论亮点明确的优质内容，方便发现口碑佳作。</em>
+        </a>
+        <a class="category-tile" href="categories/classic-story.html">
+          <img src="./12.jpg" alt="经典回看" loading="lazy">
+          <span></span>
+          <strong>经典回看</strong>
+          <em>经典回看收录年代跨度较大的影片内容，适合重温经典与发现老片。</em>
+        </a>
+        <a class="category-tile" href="categories/suspense-crime.html">
+          <img src="./8.jpg" alt="悬疑犯罪" loading="lazy">
+          <span></span>
+          <strong>悬疑犯罪</strong>
+          <em>悬疑犯罪片单聚焦反转、推理、警匪、惊悚等高张力故事。</em>
+        </a>
+        <a class="category-tile" href="categories/fantasy-world.html">
+          <img src="./7.jpg" alt="奇幻科幻" loading="lazy">
+          <span></span>
+          <strong>奇幻科幻</strong>
+          <em>奇幻科幻片单覆盖未来想象、异世界冒险、灾难设定与魔幻故事。</em>
+        </a>
+        <a class="category-tile" href="categories/light-mood.html">
+          <img src="./5.jpg" alt="轻松治愈" loading="lazy">
+          <span></span>
+          <strong>轻松治愈</strong>
+          <em>轻松治愈片单收录喜剧、家庭、爱情与温暖向内容，适合休闲观看。</em>
+        </a>
+        <a class="category-tile" href="categories/action-adventure.html">
+          <img src="./2.jpg" alt="动作冒险" loading="lazy">
+          <span></span>
+          <strong>动作冒险</strong>
+          <em>动作冒险片单突出追逐、战斗、探险与高能场面，适合寻找强节奏影片。</em>
+        </a>
+        <a class="category-tile" href="categories/daily-update.html">
+          <img src="./19.jpg" alt="持续更新" loading="lazy">
+          <span></span>
+          <strong>持续更新</strong>
+          <em>持续更新片单整合站内新近整理内容，方便持续发现不同类型影片。</em>
+        </a>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <a class="logo footer-logo" href="index.html">
+          <span class="logo-mark">映</span>
+          <span class="logo-text">精选电影合集</span>
+        </a>
+        <p>精选内容持续更新页面汇总站内优质影片内容，覆盖热门、经典与高分分类。</p>
+      </div>
+      <div class="footer-links">
+        <a href="index.html">首页</a>
+        <a href="categories.html">分类</a>
+        <a href="ranking.html">排行榜</a>
+        <a href="movies.html">全部影片</a>
+        <a href="movie-index.html">影片索引</a>
+      </div>
+      <div class="footer-tags">
+        <a href="categories/prime-picks.html">精选片单</a> <a href="categories/hot-cinema.html">热映电影</a> <a href="categories/drama-zone.html">剧集专区</a> <a href="categories/high-score.html">高分推荐</a> <a href="categories/classic-story.html">经典回看</a> <a href="categories/suspense-crime.html">悬疑犯罪</a>
+      </div>
+    </div>
+  </footer>
+  <script src="assets/search-data.js"></script>
+  <script src="assets/app.js"></script>
+  <script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?76b5e2e0f6c84c06f0a7cb7105df054d";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>

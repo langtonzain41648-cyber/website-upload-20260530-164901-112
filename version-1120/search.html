@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>影片搜索 - 免费电影大全-精选电影合集-高清电影免费在线观看</title>
+  <meta name="description" content="影片搜索页面，可按片名、年份、地区、类型和题材查找电影内容。">
+  <meta name="keywords" content="影片搜索,免费电影大全,精选电影合集,高清电影,免费电影,电影在线观看,热门电影">
+  <meta name="robots" content="index,follow">
+  <link rel="stylesheet" href="./assets/base.css">
+  <link rel="stylesheet" href="./assets/site.css">
+  <script src="./assets/movie-index.js"></script>
+</head>
+<body>
+<header class="site-header">
+  <div class="header-inner">
+    <a class="brand" href="./index.html" aria-label="免费电影大全">
+      <span class="brand-mark">▶</span>
+      <span class="brand-copy">
+        <strong>免费电影大全</strong>
+        <em>精选电影合集</em>
+      </span>
+    </a>
+    <nav class="desktop-nav">
+        <a class="nav-link " href="./index.html">首页</a>
+        <a class="nav-link " href="./categories.html">分类</a>
+        <a class="nav-link " href="./library.html">片库</a>
+        <a class="nav-link " href="./rank.html">排行榜</a>
+      <span class="nav-dropdown">
+        <button type="button">频道</button>
+        <span class="dropdown-panel">
+        <a href="./category-hot-movies.html">热门电影</a>
+        <a href="./category-featured-library.html">精选片库</a>
+        <a href="./category-new-releases.html">新片推荐</a>
+        <a href="./category-classic-cinema.html">经典影像</a>
+        <a href="./category-action-adventure.html">动作冒险</a>
+        <a href="./category-romance-comedy.html">爱情喜剧</a>
+        <a href="./category-suspense-thriller.html">悬疑惊悚</a>
+        <a href="./category-drama-history.html">剧情历史</a>
+        <a href="./category-sci-fi-fantasy.html">科幻奇幻</a>
+        <a href="./category-world-cinema.html">环球佳作</a>
+        </span>
+      </span>
+    </nav>
+    <form class="header-search" action="./search.html" method="get">
+      <input type="search" name="q" placeholder="搜索影视作品" autocomplete="off">
+      <button type="submit">搜索</button>
+    </form>
+    <button class="menu-toggle" type="button" aria-label="打开导航">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </div>
+  <nav class="mobile-nav">
+        <a href="./index.html">首页</a>
+        <a href="./categories.html">分类</a>
+        <a href="./library.html">片库</a>
+        <a href="./rank.html">排行榜</a>
+    <form action="./search.html" method="get">
+      <input type="search" name="q" placeholder="搜索影视作品" autocomplete="off">
+      <button type="submit">搜索</button>
+    </form>
+  </nav>
+</header>
+<main>
+  <section class="page-hero">
+    <div class="page-title">
+      <span class="eyebrow">影片搜索</span>
+      <h1>影片搜索</h1>
+      <p>输入片名、年份、地区、类型或题材，快速进入对应影片详情页。</p>
+    </div>
+  </section>
+  <section class="section-wrap search-layout">
+    <aside class="search-panel">
+      <form id="site-search-form">
+        <input id="site-search-input" type="search" placeholder="搜索影视作品" autocomplete="off">
+        <button type="submit">搜索</button>
+      </form>
+    </aside>
+    <div id="site-search-results" class="search-results rank-grid"></div>
+  </section>
+</main>
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div>
+      <strong>免费电影大全</strong>
+      <p>高清电影免费在线观看，热门影片与精选片库持续呈现。</p>
+    </div>
+    <nav>
+      <a href="./index.html">首页</a>
+      <a href="./categories.html">分类</a>
+      <a href="./library.html">片库</a>
+      <a href="./rank.html">排行榜</a>
+      <a href="./category-hot-movies.html">热门电影</a><a href="./category-featured-library.html">精选片库</a><a href="./category-new-releases.html">新片推荐</a><a href="./category-classic-cinema.html">经典影像</a><a href="./category-action-adventure.html">动作冒险</a><a href="./category-romance-comedy.html">爱情喜剧</a>
+    </nav>
+  </div>
+  <p class="footer-copy">© 2026 免费电影大全 · 精选电影合集</p>
+</footer>
+<script src="./assets/site.js"></script>
+
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?76b5e2e0f6c84c06f0a7cb7105df054d";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>
